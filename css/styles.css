@@ -1,5 +1,7 @@
 /*GLOBAL STYLES*/
 
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two|Permanent+Marker|Montserrat);
+
 html, body {
     height:100%;
 }
@@ -17,7 +19,9 @@ body{
 h1, h2, h3 {
     margin:0px;
     padding:0px;
-    color:#8DC63F;
+    color:#7b68ee;
+    font-family: 'Permanent Marker', cursive;
+    
 }
 
 h1 {
@@ -29,6 +33,10 @@ p {
     color:#A6A6A6;
     margin:15px 0px;
     line-height:20px;
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    margin:24px 0px;
 }
 
 a {
@@ -43,7 +51,7 @@ a:hover {
 figure{
     padding:20px;
     margin:0px;
-    background-color:#BDFFA1;
+    background-color:#2369e6;
     display: inline-block;
     border-radius:6px;
 }
@@ -59,6 +67,14 @@ main {
     width:1200px;
     margin:20px auto;
     overflow:hidden;
+}
+
+b, strong {
+    color:#e69f22;
+}
+
+mark {
+    padding:3px;
 }
 
 /*======================= HEADER STYLES =====================*/
@@ -100,13 +116,15 @@ header {
 
 .banner-button {
     font-size:2em;
-    background-color:#ff033e;
-    padding:6px 20px;
+    background-color:rgb(0, 0, 255);
+    padding:6px 16px;
     border-radius:25px;
+    color:#000000;
+    
 }
 
 .banner-button:hover {
-    background-color:#fbceb1;
+    background-color:#ff7900;
 }
 /*========================NAVIGATION STYLES============================*/
 
@@ -142,7 +160,7 @@ header {
 }
 
 .columnA h2, .columnB h2, .columnC h2 {
-    font-size: 5.5em;
+    font-size: 2.5em;
     font-weight:700;
     text-align:center;
     margin:15px 0px;
@@ -177,6 +195,7 @@ header {
     left:100px;
     text-align:center;
     padding:10px 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 /*===============ABOUT ME=================*/
 
@@ -220,6 +239,10 @@ footer p {
 }
 /*----------SOCIAL STYLES--------*/
 
+.social a {
+    color:#FFFFFF;
+}
+
 .fa {
    background-color: rgb(141, 198, 63);
    border:solid 5px #FFFFFF;
@@ -229,4 +252,19 @@ footer p {
    height:28px;
    padding:12px;
    margin:0px 15px;
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+.fa-facebook:hover {
+    background-color: #5274BC;
+}
+
+.fa-twitter {
+    background-color: #00aced;
+}
+
+.fa-github {
+    background-color: #000000;
 }
