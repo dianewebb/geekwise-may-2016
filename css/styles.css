@@ -298,8 +298,9 @@ footer p {
 
 
 #wufoo-z1x00dbh0imw618 {
-    border:solid 3px;
+    border:solid 3px #009A49;
     border-radius: 8px;
     width:90%;
-    margin:0px a;:20p
+    margin:0px auto;
+    background-color: #C8E8C6;
 }
